@@ -1,0 +1,23 @@
+
+.button {
+  border: 1px solid #237BEF;
+  border-radius: 50px;
+  background: transparent;
+  height: 45px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #237BEF;
+  cursor: pointer;
+  transition: .5s;
+
+  &--page {
+    width: 350px;
+  }
+
+  &:hover {
+    background: #237BEF;
+    color: #fff;
+    transition: .5s;
+  }
+}
