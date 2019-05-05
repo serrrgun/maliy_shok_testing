@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="no-js  page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <meta name="description" content="Home page!">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
+</head>
+
+<body>
+  <div class="page-wrapper"><button class="button button--page">authorization</button>
+    <section class="popup">
+      <div class="popup__background">
+        <div class="popup__inner"><button class="popup__close"><svg class="popup__close-svg" width="15" height="15"><use xlink:href="img/sprite-svg.svg#cross"></use></svg></button>
+          <h1 class="popup__title">Log in</h1>
+          <form class="form" action="post">
+            <div class="form__block">
+              <div class="form__input-wrapper"><input class="form__input" type="text" placeholder="Email" required></div>
+                <div class="form__input-wrapper"> <input class="form__input" type="password" placeholder="Password" required><span class="form__input-password"></span></div>
+              </div><button class="form__btn button" type="submit">Authorise me</button>
+          </form>
+          <div class="popup__links"><a class="popup__link" href="#">Go to registration form</a><a class="popup__link" href="#">Forgot password?</a></div>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.min.js"></script>
+  </div>
+</body>
+
+</html>
